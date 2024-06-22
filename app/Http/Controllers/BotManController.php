@@ -29,6 +29,8 @@ class BotManController extends Controller
 
     public function handle()
     {
+        
+  
         $botman = app('botman');
 
         $botman->hears('{message}', function ($botman, $message) {
@@ -58,8 +60,9 @@ class BotManController extends Controller
                         "- Desarrollo de prototipos de software");
                     break;
                 case "¿Con quien me puedo contactar para una consulta?":
-                    $botman->reply("Sigue el siguiente enlace: " . '"<a href="{{url("/contact")}}">Contacto</a>"');
-                    break;
+                    $botman->reply('Puedes contactar a nuestro equipo de soporte a través del siguiente enlace de WhatsApp: ' . 
+                     '<a href="https://api.whatsapp.com/send?phone=+59163489070&text=hola ," . urlencode($mensaje_whatsapp)" target="_blank">Contactar por WhatsApp</a>');
+                break;
                 default:
                     $botman->reply("Preguntas frecuentes:" . "<br>" . "¿Cúal es la Mision de la empresa?" .
                         "<br>" . "¿Cúal es la Vision de la empresa?" .

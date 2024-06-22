@@ -50,7 +50,7 @@
                                     <ul>
                                         <li><a href="#"> <i class="fa fa-envelope"></i>
                                             SOFTFORGE@gmail.com</a></li>
-                                        <li><a href="#"> <i class="fa fa-phone"></i> +591 63489070</a></li>
+                                        <li><a href="https://api.whatsapp.com/send?phone=+59163489070&text=hola ," . urlencode($mensaje_whatsapp)" target="_blank"><i class="fa fa-phone"></i> +591 63489070</a></li>
                                     </ul>
                                 </div>
                                 <div class="social_media_links">
