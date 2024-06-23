@@ -31,6 +31,9 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/suscripciones', function () {
+    return view('suscripciones');
+});
 
 Route::post('/sendEmail', function (){
     Mail::to(request()->destinatario)->send(new TestMail(request()->mensaje, request()->subject));

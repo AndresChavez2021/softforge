@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Innovación que Transforma <br>
+                                <h3>Forjando Software con la Firmeza de la Calidad <br>
                                 </h3>
                                 <div class="video_service_btn">
                                     <a href="{{ url('/services') }}" class="boxed-btn3">Servicios</a>
@@ -23,7 +23,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Innovación que Transforma <br>
+                                <h3>Forjando Software con la Firmeza de la Calidad <br>
                                 </h3>
                                 <div class="video_service_btn">
                                     <a href="{{ url('/services') }}" class="boxed-btn3">Servicios</a>
@@ -38,7 +38,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Innovación que Transforma <br>
+                                <h3>Forjando Software con la Firmeza de la Calidad <br>
                                 </h3>
                                 <div class="video_service_btn">
                                     <a href="{{ url('/services') }}" class="boxed-btn3">Servicios</a>
@@ -53,7 +53,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Innovación que Transforma <br>
+                                <h3>Forjando Software con la Firmeza de la Calidad <br>
                                 </h3>
                                 <div class="video_service_btn">
                                     <a href="{{ url('/services') }}" class="boxed-btn3">Servicios</a>

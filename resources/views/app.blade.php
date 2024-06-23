@@ -89,6 +89,7 @@
                                             <li><a class="{{ 'services' == Request::is('services*') ? 'active' : '' }}" href="{{ url('services') }}">Services</a></li>
                                             <li><a href="{{ url('contact') }}">Contact</a></li>
                                             <li><a href="{{ url('about') }}">About</a></li>
+                                            <li><a href="{{ url('suscripciones') }}">Subscriptions</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -114,8 +115,9 @@
                 <div class="col-xl-8">
                     <div class="info_text text-center">
                         <h3>Para cualquier información llámanos</h3>
-                        <p>Innovación que transforma</p>
-                        <a class="boxed-btn3" href="#">+591 63489070</a>
+                        <p>Forjando Software con la Firmeza de la Calidad</p>
+                        <a class="boxed-btn3" href="https://api.whatsapp.com/send?phone=+59163489070&text=hola ," . urlencode($mensaje_whatsapp)" target="_blank"><i class="fa fa-phone"></i> +591 63489070</a>
+                        
                     </div>
                 </div>
             </div>

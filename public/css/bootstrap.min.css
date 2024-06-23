@@ -36,6 +36,75 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
+
+.team-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Ajustar según la necesidad */
+    object-fit: cover;
+}
+.bradcam_area {
+    background: url('img/git.png') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    text-align: center;
+}
+.bradcam_text h3 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.plan-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.plan-card .card-body {
+    padding: 30px;
+}
+.plan-card .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.plan-card .card-price {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.plan-card .card-price .period {
+    font-size: 18px;
+    color: #6c757d;
+}
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+}
+.plan-card ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.plan-card .btn {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+/* Background colors for plans */
+.plan-card:nth-child(1) {
+    background: linear-gradient(to bottom, #274751, #1d1d5b);
+    color: #ffffff;
+}
+.plan-card:nth-child(2) {
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+    color: #ffffff;
+}
+.plan-card:nth-child(3) {
+    background: linear-gradient(to bottom, #f953c6, #b91d73);
+    color: #ffffff;
+}
+
+
+
 *,
 ::after,
 ::before {
