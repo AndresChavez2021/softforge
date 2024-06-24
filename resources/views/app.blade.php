@@ -251,7 +251,7 @@
         var botmanWidget = {
             title: "SOFTFORGE INNOVATIONS",
             aboutText: "SOFTFORGE INNOVATIONS",
-            introMessage: "Hola!, Bienvenido a SOFTFORGE INNOVATIONS, ¿En que puedo ayudarte?",
+           // introMessage: "Hola!, Bienvenido a SOFTFORGE INNOVATIONS, ¿En que puedo ayudarte?",
             placeholderText: "Escribe un mensaje",
         };
     </script>
